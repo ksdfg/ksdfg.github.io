@@ -1,10 +1,11 @@
 body {
 	background: rgba(0, 0, 0, 0) linear-gradient(230deg, rgb(75, 207, 147), rgb(75, 121, 207), rgb(162, 75, 207)) repeat scroll 0% 0% / 300% 300%;
-	background-size: 400% 400%;
 
 	-webkit-animation: AnimationName 15s ease infinite;
 	-moz-animation: AnimationName 15s ease infinite;
 	animation: AnimationName 15s ease infinite;
+
+	color: antiquewhite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -21,4 +22,14 @@ body {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+
+h1 {
+    font-family: open sans,Arial,Helvetica Neue,sans-serif;
+    width: 100%;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: .8;
+    letter-spacing: 3px;
+    font-weight: 300;
 }
