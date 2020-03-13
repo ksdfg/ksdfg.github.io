@@ -3,9 +3,9 @@
 body {
 	background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(75, 121, 207), rgb(162, 75, 207)) scroll 0% 0% / 300% 300%;
 
-	-webkit-animation: gradient-animation 25s ease infinite;
-	-moz-animation: gradient-animation 25s ease infinite;
-	animation: gradient-animation 25s ease infinite;
+	-webkit-animation: gradient-animation 5s ease infinite;
+	-moz-animation: gradient-animation 5s ease infinite;
+	animation: gradient-animation 5s ease infinite;
 
     color: antiquewhite;
     font-family: Roboto,sans-serif;
