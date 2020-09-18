@@ -1,6 +1,17 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178410201-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-178410201-1');
+  </script>
+  <!-- Google analytics end -->
+
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
@@ -114,7 +125,8 @@
 
       <h2>Automated Tool that forwards all links that come on WhatsApp to Telegram.</h2>
       <h2 style="margin-bottom: 4%">
-        Built using Selenium and deployed with Docker. Was mainly developed to avoid opening WhatsApp for lecture links, but also works
+        Built using Selenium and deployed with Docker. Was mainly developed to avoid opening WhatsApp for lecture links,
+        but also works
         as a great way of archiving all meeting links that get burried under spam.
       </h2>
     </div>
