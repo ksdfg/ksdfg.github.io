@@ -1,78 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
 body {
-  background: rgba(0, 0, 0, 0)
-    linear-gradient(45deg, rgb(75, 121, 207), rgb(162, 75, 207)) scroll 0% 0% /
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(75, 121, 207), rgb(162, 75, 207)) scroll 0% 0% /
     300% 300%;
 
-  -webkit-animation: gradient-animation 5s ease infinite;
-  -moz-animation: gradient-animation 5s ease infinite;
-  animation: gradient-animation 5s ease infinite;
+    -webkit-animation: gradient-animation 5s ease infinite;
+    -moz-animation: gradient-animation 5s ease infinite;
+    animation: gradient-animation 5s ease infinite;
 
-  color: antiquewhite;
-  font-family: Roboto, sans-serif;
-  font-weight: 300;
+    color: antiquewhite;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+
+    height: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 @-webkit-keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
+
 @-moz-keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
+
 @keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1,
 h2,
 h3 {
-  font-family: Roboto, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 h1 {
-  font-family: Roboto, sans-serif;
-  font-weight: 100;
-  font-size: 70px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 70px;
 }
 
 div.page {
-  width: 100%;
-  height: max-content;
-  margin-bottom: 10%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.content {
-  width: max-content;
-  max-width: 95%;
+    width: max-content;
+    max-width: 95%;
 }
 
 span {
-  margin-right: 4%;
+    margin-right: 4%;
 }
