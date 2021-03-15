@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
 body {
-    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(75, 121, 207), rgb(162, 75, 207)) scroll 0% 0% /
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, rgb(75, 121, 207), rgb(162, 75, 207)) scroll 0 0 /
     300% 300%;
 
     -webkit-animation: gradient-animation 5s ease infinite;
@@ -19,37 +19,37 @@ body {
 
 @-webkit-keyframes gradient-animation {
     0% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
     50% {
         background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
 }
 
 @-moz-keyframes gradient-animation {
     0% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
     50% {
         background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
 }
 
 @keyframes gradient-animation {
     0% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
     50% {
         background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
 }
 
@@ -80,8 +80,4 @@ div.page {
 div.content {
     width: max-content;
     max-width: 95%;
-}
-
-span {
-    margin-right: 4%;
 }
