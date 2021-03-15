@@ -81,3 +81,7 @@ div.content {
     width: max-content;
     max-width: 95%;
 }
+
+span {
+    margin-right: 4%;
+}
