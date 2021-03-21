@@ -85,3 +85,9 @@ div.content {
 span {
     margin-right: 4%;
 }
+
+.icon {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
