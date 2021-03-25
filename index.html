@@ -31,6 +31,24 @@
 </head>
 
 <body class="w3-container">
+<div id="nav" class="overlay">
+  <!-- Button to close the overlay navigation -->
+  <a class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div>
+    <a href="#hermes" onclick="closeNav()">Hermes</a>
+    <a href="#neko-chan" onclick="closeNav()">Neko Chan</a>
+    <a href="#ara-ara-ufufu" onclick="closeNav()">Ara Ara Ufufu!</a>
+    <a href="#meetings-channel" onclick="closeNav()">Meetings Channel</a>
+    <a href="#horrible-downloader" onclick="closeNav()">Horrible Downloader</a>
+    <a href="#hackerrank" onclick="closeNav()">Hackerrank Test Case Generator</a>
+  </div>
+</div>
+<svg class="icon sticky" onclick="openNav()" viewBox="0 0 24 24">
+  <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"/>
+</svg>
+
 <div class="w3-container page">
   <div class="w3-container content">
     <h1>Kshitish Deshpande</h1>
@@ -286,6 +304,7 @@
 </div>
 
 <script>
+    /* Copy to clipboard with hack if navigator is not available */
     function fallbackCopyTextToClipboard(text) {
         const textArea = document.createElement("textarea");
         textArea.value = text;
@@ -308,12 +327,23 @@
         document.body.removeChild(textArea);
     }
 
+    /* copy text to clipboard  */
     function copyTextToClipboard(text) {
         if (navigator.clipboard) {
             navigator.clipboard.writeText(text);
         } else {
             fallbackCopyTextToClipboard(text);
         }
+    }
+
+    /* Open when someone clicks on the span element */
+    function openNav() {
+        document.getElementById("nav").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        document.getElementById("nav").style.width = "0";
     }
 </script>
 </body>
