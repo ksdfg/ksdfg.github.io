@@ -62,9 +62,16 @@ h3 {
 }
 
 h1 {
-    font-family: Roboto, sans-serif;
     font-weight: 100;
-    font-size: 70px;
+    font-size: min(9vw, 9vh);
+}
+
+h2 {
+    font-size: min(4vw, 4vh);
+}
+
+h3 {
+    font-size: min(3vw, 3vh);
 }
 
 div.page {
@@ -87,8 +94,8 @@ span {
 }
 
 .icon {
-    height: 48px;
-    width: 48px;
+    height: max(3vw, 3vh);
+    width: max(3vw, 3vh);
     cursor: pointer;
 }
 
@@ -120,7 +127,7 @@ span {
     color: #818181;
     transition: 0.3s; /* Transition effects on hover (color) */
     font-weight: 100;
-    font-size: 60px;
+    font-size: min(9vw, 6vh);
     margin: 30px;
     display: block;
 }
@@ -135,6 +142,6 @@ span {
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px;
+    font-size: min(9vw, 7vh);
     cursor: pointer;
 }
