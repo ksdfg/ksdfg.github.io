@@ -13,7 +13,7 @@ body {
     font-weight: 300;
 
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     scroll-snap-type: y mandatory;
 }
 
@@ -144,4 +144,10 @@ span {
     right: 45px;
     font-size: min(9vw, 7vh);
     cursor: pointer;
+}
+
+.project-links {
+    display: flex;
+    gap: 4%;
+    margin-bottom: 4%;
 }
