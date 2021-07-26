@@ -26,6 +26,30 @@ let projects = [
         ]
     },
     {
+        id: "revamp",
+        title: "Rev-AMP",
+        links: [
+            {
+                title: "Backend Code",
+                url: "https://github.com/rev-amp/backend"
+            },
+            {
+                title: "Frontend Code",
+                url: "https://github.com/rev-amp/frontend"
+            }
+        ],
+        description: [
+            `
+            A reliable, efficient and versatile Academics Management Platform.
+            `,
+            `
+            Web Application for academic organisations (schools, colleges etc.) to handle student - course allocation,
+            Lecture Scheduling, Timetable generation based on courses you belong to (for both students and professors)
+            and Assignments.
+            `
+        ]
+    },
+    {
         id: "workgroup",
         title: "Workgroup",
         links: [
