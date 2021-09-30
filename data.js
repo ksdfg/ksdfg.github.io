@@ -4,24 +4,26 @@ let projects = [
         title: "Hermes",
         links: [
             {
-                title: "Source Code",
-                url: "https://github.com/ksdfg/Hermes"
-            },
-            {
                 title: "Visit Webpage",
                 url: "https://hermes.ksdfg.tech/"
+            },
+            {
+                title: "Backend Code",
+                url: "https://github.com/ksdfg/hermes-backend"
+            },
+            {
+                title: "Frontend Code",
+                url: "https://github.com/ksdfg/hermes-frontend"
             }
         ],
         description: [
             `
-            A WhatsApp mass messaging application.
+            A web application for WhatsApp messaging automation.
             `,
             `
-            Built with Flask and
-            <a href="https://github.com/mukulhase/WebWhatsapp-Wrapper" rel="noopener noreferrer" target="_blank">
-            webwhatsapi</a>, this is a small web application that allows a user to automate sending a message to
-            multiple people (whether they are or aren't in your contacts list) with your number. It requires you to scan
-             a QR code from your phone, so preferably use it from a desktop / laptop.
+            Hermes allows a user to automate sending a message to multiple people (whether they are or aren't in your
+            contacts list) from a CSV file with your number. You can also use placeholders in the message body that will
+            be replaced with values from the CSV file.
             `
         ]
     },
@@ -188,7 +190,7 @@ function loadProjects() {
                         </a>
                     </h1>
 
-                    <div class="project-links" style="justify-content: ${index % 2 === 0 ? " start" : " end"}">
+                    <div class="project-links" style="justify-content: ${index % 2 === 0 ? "flex-start" : "flex-end"}">
                         ${
                             project.links.map(link => (
                                 `

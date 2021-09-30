@@ -150,4 +150,5 @@ span {
     display: flex;
     gap: 4%;
     margin-bottom: 4%;
+    flex-wrap: wrap;
 }
