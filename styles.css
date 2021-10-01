@@ -149,6 +149,9 @@ span {
 .project-links {
     display: flex;
     gap: 4%;
-    margin-bottom: 4%;
     flex-wrap: wrap;
+}
+
+.project-links > a {
+    margin-bottom: 4%;
 }
