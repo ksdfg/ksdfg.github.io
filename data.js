@@ -114,7 +114,7 @@ let projects = [
             },
             {
                 title: "Visit Webpage",
-                url: "https://ara-ara-ufufu.herokuapp.com/"
+                url: "https://ara-ara.ksdfg.dev/"
             }
         ],
         description: [
