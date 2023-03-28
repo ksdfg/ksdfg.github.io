@@ -1,12 +1,36 @@
 let projects = [
     {
+        id: "fiber-test",
+        title: "fiber-test",
+        links: [
+            {
+                title: "Go reference",
+                url: "https://pkg.go.dev/github.com/ksdfg/fiber-test"
+            },
+            {
+                title: "Source Code",
+                url: "https://github.com/ksdfg/fiber-test"
+            }
+        ],
+        description: [
+            `
+            A small utility package that helps you set up and run unit tests for your gofiber app.
+            `,
+            `
+            The package includes interfaces for a test suite to setup and handle any dependencies like DBs, caches etc.
+            as well a test case for a single endpoint. The included util functions allow you to run a unit test in just
+            two steps once the suite and test case interfaces have been implemented.
+            `
+        ]
+    },
+    {
         id: "hermes",
         title: "Hermes",
         links: [
-            {
-                title: "Visit Webpage",
-                url: "https://hermes.ksdfg.dev/"
-            },
+//             {
+//                 title: "Visit Webpage",
+//                 url: "https://hermes.ksdfg.dev/"
+//             },
             {
                 title: "Backend Code",
                 url: "https://github.com/ksdfg/hermes-backend"
@@ -61,7 +85,7 @@ let projects = [
             },
             {
                 title: "Source Code",
-                url: "https://github.com/ksdfg/Hermes"
+                url: "https://github.com/ksdfg/workgroup"
             }
         ],
         description: [
@@ -111,11 +135,11 @@ let projects = [
             {
                 title: "Source Code",
                 url: "https://github.com/ksdfg/ARA-ARA"
-            },
-            {
-                title: "Visit Webpage",
-                url: "https://ara-ara.ksdfg.dev/"
             }
+//             {
+//                 title: "Visit Webpage",
+//                 url: "https://ara-ara.ksdfg.dev/"
+//             }
         ],
         description: [
             `
