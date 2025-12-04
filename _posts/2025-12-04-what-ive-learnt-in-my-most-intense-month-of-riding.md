@@ -5,7 +5,7 @@ date: 2025-12-04
 categories: motorcycles travel
 ---
 
-Over the last 20 out of 30 days I was on my bike for a distance of 1750 km, which included stretches from Pune to Varandha and back, Pune to Goa via Diveagar and Goa to Pune via Nipani. Here's what I've learnt:
+Over the last 20 out of 30 days I was on my bike for a distance of 1750 km, which included stretches from Pune to Varandha and back, Pune to Goa via Diveagar and Goa to Pune via Nipani. Here's what I've learnt.
 
 ## Role reversal
 
